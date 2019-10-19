@@ -1,0 +1,47 @@
+[{
+    "data_id":"4",
+    "name":"京东生鲜",
+    "bigImg":"https://img10.360buyimg.com//babel/jfs/t1/22504/4/8462/10394/5c762edfEf5ebd4fd/c2cd5809f09f2b74.jpg!q80.webp",
+    "bigCon":["小龙虾", "包子", "香梨", "海参", "三文鱼", "烧烧食材", "蔬菜", "东家菜"],
+    "list":[{
+            "alt": "首食惠 新西兰羔羊肉片 500g/袋 首农出品 羊排肉卷 火锅食材",
+            "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t7681/148/2154394350/231974/f976acac/59a8ce05N33517d24.jpg!q80.webp",
+            "price": "¥39.90"
+        },{
+            "alt": "【秒杀·178元】美享时刻 原肉整切牛排套餐10片进口S级牛肉微腌黑椒西冷菲力儿童牛扒 生鲜年货",
+            "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t18910/185/1403659361/253704/ece62066/5ac74859Nd2ba4167.jpg!q80.webp",
+            "price": "¥148.00"
+        },{
+            "alt": "Zespri佳沛 新西兰绿奇异果 特大22-25个 原箱装 单果重约134-175g 新鲜水果",
+            "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t23797/101/1565294837/354416/d46747be/5b6299fdNa2588a6a.jpg!q80.webp",
+            "price": "¥129.00"
+        },{
+            "alt": "上鲜 鸡腿肉块 800g 出口日本级 鸡丁肉鸡腿肉丁鸡肉块 宫保鸡丁辣子鸡丁麻辣鸡丁食材清真食品",
+            "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t7927/39/1865494354/208942/5b294021/59a384f3Nbebbc267.jpg!q80.webp",
+            "price": "¥39.90"
+        },{
+            "alt": "【实付188】小牛凯西牛排套餐10片 澳洲进口手工微腌牛肉西冷菲力儿童牛排生鲜原肉整切礼盒",
+            "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/2484/16/1209/304097/5b93f0f0Ec5d0df70/8a440e8db28fa2a2.jpg!q80.webp",
+            "price": "¥209.00"
+        },{
+            "alt": "海晏堂 大连淡干海参 50g 12-22只 简装 一级品 海鲜干货",
+            "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t3427/271/37998537/366726/cf2ad41c/57fca74fN9f0104f7.jpg!q80.webp",
+            "price": "¥429.00"
+        },{
+            "alt": "真食 广西百香果 5斤大果  单果50-100g 新鲜水果 ",
+            "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t19420/78/291625157/439107/f670c6fd/5a69765eN67eeee77.jpg!q80.webp",
+            "price": "¥35.90"
+        },{
+            "alt": "美威 智利原味三文鱼排（大西洋鲑）  240g/袋 4片装 海鲜水产",
+            "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/2750/11/2642/386020/5b9720b0Ed99f5370/32b19e57b7b524a2.jpg!q80.webp",
+            "price": "¥59.90"
+        },{
+            "alt": "京东海外直采 熟冻北极甜虾 1kg/盒 90-120只 原装进口 皇家格陵兰",
+            "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t7288/146/4614105121/422479/caa23892/5bc3f435Nd47de501.jpg!q80.webp",
+            "price": "¥99.00"
+        },{
+            "alt": "杨氏YANG’S 精品赣南脐橙 约3kg装 铂金果 年货礼盒 新老包装随机发货 橙子水果",
+            "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/23376/4/4952/313244/5c37fc8eEd9aa03ca/cd82ea3291c21478.jpg!q80.webp",
+            "price": "¥69.90"
+        }]
+}]

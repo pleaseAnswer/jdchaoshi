@@ -1,0 +1,48 @@
+[{
+    "data_id":"9",
+    "name":"小家电",
+    "bigImg":"https://img10.360buyimg.com//babel/jfs/t1/57778/25/2260/62741/5d00c565E427771e6/d0300f4e132017ed.jpg!q80.webp",
+    "bigCon":["净水器", "电热水壶", "加湿器", "按摩器", "插座", "微波炉", "风扇", "电饭煲"],
+    "list":[
+    {
+        "alt": "美的（Midea）电磁炉 触控按键 黑晶面板 八档火力  一键爆炒 定时功能  C21-WK2102（标配汤锅+炒锅）",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t1/21957/22/10399/183989/5c874f56E122fbf0d/da831d6764b1467d.jpg!q80.webp",
+        "price": "¥179.00"
+    },{
+        "alt": "博朗（BRAUN）电动剃须刀7系7840S德国进口全身水洗刮胡须刀（智能声波剃须）",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t1/31972/3/2670/173834/5c6d19bbE409549d4/15868356c482952c.jpg!q80.webp",
+        "price": "¥999.00"
+    },{
+        "alt": "松下（Panasonic） MC-8D58D充电式无绳手持除螨无线长续航100W吸入功率大吸力家用吸尘器（银色）",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/14508/6/10706/95359/5c88c6b0E557ca271/f1382d7aff6a6041.jpg!q80.webp",
+        "price": "¥1699.00"
+    },{
+        "alt": "苏泊尔（SUPOR）电磁炉 2200w大功率 多档调节 京东纪念款 C22-IH66E8（赠苏泊尔欧式深汤锅+匠芯木柄炒锅）",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t1/7431/12/14760/280850/5c6a6525Eaccc1f4f/c2fa88896d706911.jpg!q80.webp",
+        "price": "¥259.00"
+    },{
+        "alt": "须眉电动剃须刀黑科技涡轮三叶便携全身水洗刮胡刀ST-R102黑色",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/59488/38/893/192542/5cf24157E109e5498/2bbeee6fec199175.jpg!q80.webp",
+        "price": "¥129.00"
+    },{
+        "alt": "小狗（puppy）家用除螨无线挂式充电手持吸尘器T10 Cyclone",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t1/6748/15/2308/71268/5bd063feEaa3555dc/de8c390a0807bc3b.jpg!q80.webp",
+        "price": "¥1099.00"
+    },{
+        "alt": "沁园小白鲸",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t1/36481/19/12380/284722/5d06eba9E6b10e524/5f5c8fe4ee56dc29.jpg!q80.webp",
+        "price": "¥2199.00"
+    },{
+        "alt": "松下（Panasonic）电吹风机 家用 纳米水离子 大功率速干 恒温护发EH-WNA3B",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/16255/7/4613/46369/5c330e04Eb7cce981/3053ad9b55dc6e5d.jpg!q80.webp",
+        "price": "¥399.00"
+    },{
+        "alt": "霍尼韦尔（Honeywell）空气净化器 除甲醛/除雾霾/除菌/除花粉/除二手烟 KJ305F-PAC1101W",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t1/52468/9/1105/160326/5cecf2d2E0ee1f097/a7700e49e544405b.jpg!q80.webp",
+        "price": "¥1599.00"
+    },{
+        "alt": "美的（Midea）破壁机家用破壁料理机 智能预约婴儿辅食机 破壁豆浆机MJ-PB80Easy215",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/14149/31/7369/319182/5c6a64b8E62dd8cc6/838114f0176a5311.jpg!q80.webp",
+        "price": "¥649.00"
+    }]
+}]

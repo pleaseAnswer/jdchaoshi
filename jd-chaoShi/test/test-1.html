@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index-3.min.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <!-- <script src="./js/navigation_bar.js"></script> -->
+    <script src="./js/index-5.js"></script>
+</head>
+<body>
+    <!-- <div class="chaoshi_seckill" id="chaoshi_seckill_2">
+        <div class="grid_c1">
+            <div class="chaoshi_seckill_hd clear_fix">
+                <h3 class="chaoshi_seckill_tit">限时抢购</h3>
+                <div class="J_chaoshi_seckill_time chaoshi_seckill_time">
+                    <span class="chaoshi_seckill_time_tip">距离本场结束还有</span>
+                    <div class="J_chaoshi_seckill_time_main chaoshi_seckill_time_main">
+                        <div class="time clear_fix">
+                            <div class="time_item time_hour">
+                                <span class="time_item_txt">08</span>
+                            </div>
+                            <div class="time_split">
+                                <i class="time_split_dot time_split_top"></i>
+                                <i class="time_split_dot time_split_bottom"></i>
+                            </div>
+                            <div class="time_item time_minute">
+                                <span class="time_item_txt">14</span>
+                            </div>
+                            <div class="time_split">
+                                <i class="time_split_dot time_split_top"></i>
+                                <i class="time_split_dot time_split_bottom"></i>
+                            </div>
+                            <div class="time_item time_second">
+                                <span class="time_item_txt">01</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chaoshi_seckill_bd clearfix">
+                <ul class="chaoshi_seckill_list clearfix" data-qianggou="//chaoshi.jd.com/qianggou">
+                    <li class="chaoshi_seckill_item csi" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','qianggou','8990605_biClk','1');">  
+                        <div class="csi_pic">        
+                            <a class="csi_pic_lk" href="//chaoshi.jd.com/qianggou#8990605" target="_blank" clstag="channel|keycount|3054|sale_item_chaoshi_seckill_2_0">      
+                                <img class="csi_img" src="//img10.360buyimg.com/jdcms/s130x130_jfs/t24967/216/854062439/143213/3feb99ff/5b7d27ebN34720821.jpg!q80.webp" data-lazy-img="done" alt="Driscoll's 怡颗莓 秘鲁进口蓝莓 4盒 约125g/盒 新鲜水果" title="Driscoll's 怡颗莓 秘鲁进口蓝莓 4盒 约125g/盒 新鲜水果">      
+                                <p class="csi_name">Driscoll's 怡颗莓 秘鲁进口蓝莓 4盒 约125g/盒 新鲜水果</p>    
+                            </a>  
+                        </div>  
+                        <p class="csi_price clearfix">    
+                            <span class="csi_price_new" data-price-id="8990605">¥64.90</span>    
+                            <del class="csi_price_origin" data-price-id="8990605" data-price-type="m">¥139.90</del>  
+                        </p>
+                    </li>    
+                </ul>
+                <a class="chaoshi_seckill_more" href="//chaoshi.jd.com/qianggou" clstag="channel|keycount|3054|more2_1_1" target="_blank" title="宝宝辅食">
+                    <img src="//img14.360buyimg.com/cms/jfs/t5518/233/1826697980/14915/af601091/59152261N77dff2c1.png" data-lazy-img="done" alt="宝宝辅食" data-webp="no">
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <script>
+        
+        // 向服务器端发送请求获取数据
+        $.ajax({
+            type: "post",
+            url: "./server/index-5.php",
+            data: "",
+            // dataType: "dataType",
+            success: function (response) {
+                var data = JSON.parse(response);
+                // console.log(data);
+                // console.log(typeof(data));
+                var manager3=new Manager_three(data);
+                manager3.init();
+            }
+        });
+    
+    </script>
+
+    <!-- <div class="chaoshi_seckill_bd clear_fix">
+        <ul class="chaoshi_seckill_list clearfix">
+            <li class="chaoshi_seckill_item csi">  
+                <div class="csi_pic">        
+                    <a class="csi_pic_lk" href="//chaoshi.jd.com/qianggou#4927013">
+                        <img class="csi_img" src=`${data.src}` data-lazy-img="done" alt=`${data.alt}` title=`${data.title}`>
+                        <p class="csi_name">`${data.title}`</p>
+                    </a>
+                </div>  
+                <p class="csi_price clearfix">    
+                    <span class="csi_price_new">`${data.priceA}`</span>    
+                    <del class="csi_price_origin">`${data.priceB}`</del>  
+                </p>
+            </li>
+        </ul>
+        <a class="chaoshi_seckill_more" href="" target="_blank" title="宝宝辅食">
+            <img src="//img14.360buyimg.com/cms/jfs/t5518/233/1826697980/14915/af601091/59152261N77dff2c1.png" alt="宝宝辅食">
+        </a>
+    </div> -->
+
+    <div class="chaoshi_category grid_c1" id="chaoshi_category_${this.data.data_id}">
+        <div class="chaoshi_mod_head grid_c1">
+            <h3 class="chaoshi_mod_head_title">清洁用品</h3>
+        </div>
+        <div class="chaoshi_category_bd grid_c1">
+            <div class="chaoshi_category_focus">
+                <a class="chaoshi_category_focus_pic" href="//pro.jd.com/mall/active/33CT1cDuzRFM8dW3ifyDSt7JnmTb/index.html" target="_blank" title="">
+                    <img src="//img10.360buyimg.com//babel/jfs/t17836/27/657353716/74507/73706349/5a9d01baN5ba9dfa2.png!q80.webp">
+                </a>
+                <div class="chaoshi_category_focus_key">
+                    <div class="chaoshi_category_focus_key_inner">
+                        <!-- 大图片里的小图标 -->
+                        <a href="https://list-chaoshi.jd.com/list.html?cat=1316,1625,1662&amp;page=1&amp;go=0&amp;ev=109065_622076&amp;JL=3_%E7%B1%BB%E5%9E%8B_%E6%89%8B%E6%B4%97#J_crumbsBar" target="_blank" title="手洗洗衣液">手洗洗衣液</a>
+                    </div>
+                </div>
+            </div>
+            <div class="goods chaoshi_category_goods clear_fix">
+                <ul class="chaoshi_category_ul goods_list">
+                    <!-- 10个商品 -->
+                    <li class="J_goods_item goods_item">
+                        <a class="goods_pic" href="//item.jd.com/1280261.html" target="_blank" title="">
+                            <img class="J_goods_img goods_img" src="//img10.360buyimg.com/jdcms/s130x130_jfs/t19294/184/266930215/251303/884d3a0/5a6830a5Nfdd2fd4e.jpg!q80.webp" alt="雕牌 加香透明皂/洗衣皂206g*2块 肥皂（新老包装随机发货）" title="雕牌 加香透明皂/洗衣皂206g*2块 肥皂（新老包装随机发货）">
+                        </a>
+                        <p class="goods_title">雕牌 加香透明皂/洗衣皂206g*2块 肥皂（新老包装随机发货）</p>
+                        <div class="goods_prices clearfix">
+                            <p class="J_goods_price goods_price" data-price-id="1280261">¥5.90</p>
+                        </div>
+                        <a class="J_goods_add goods_add" href="">
+                            <i class="goods_add_icon"></i>
+                            <span class="goods_add_txt">加入购物车</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="cmsfooter">
+        <div id="service-2017">
+            <div class="w">
+                <ol class="slogen">
+                    <li class="item fore1"><i>多</i>品类齐全，轻松购物</li>
+                    <li class="item fore2"><i>快</i>多仓直发，极速配送</li>
+                    <li class="item fore3"><i>好</i>正品行货，精致服务</li>
+                    <li class="item fore4"><i>省</i>天天低价，畅选无忧</li>
+                </ol>
+            </div>
+            <div class="jd-help">
+                <div class="w">
+                    <div class="wrap">
+                        <dl class="fore1">
+                            <dt>购物指南</dt>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-29.html">购物流程</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-151.html">会员介绍</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-297.html">生活旅行/团购</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue.html">常见问题</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-136.html">大家电</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/custom.html">联系客服</a></dd>
+                        </dl>
+                        <dl class="fore2">
+                            <dt>配送方式</dt>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81-100.html">上门自提</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81.html">211限时达</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/103-983.html">配送服务查询</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/109-188.html">配送费收取标准</a></dd>
+                            <dd><a target="_blank" href="//help.joybuy.com/help/question-list-201.html">海外配送</a></dd>
+                        </dl>
+                        <dl class="fore3"><dt>支付方式</dt>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-172.html">货到付款</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-173.html">在线支付</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-176.html">分期付款</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-174.html">邮局汇款</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-175.html">公司转账</a></dd>
+                        </dl>
+                        <dl class="fore4">
+                            <dt>售后服务</dt>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/321-981.html">售后政策</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-132.html">价格保护</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/130-978.html">退款说明</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//myjd.jd.com/repair/repairs.action">返修/退换货</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-50.html">取消订单</a></dd>
+                        </dl>
+                        <dl class="fore5"><dt>特色服务</dt>
+                            <dd><a target="_blank" href="//1paipai.jd.com">夺宝岛</a></dd><dd><a target="_blank" href="//help.jd.com/user/issue/list-134.html">DIY装机</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//fuwu.jd.com/">延保服务</a></dd><dd><a rel="nofollow" target="_blank" href="//o.jd.com/market/index.action">京东E卡</a></dd>
+                            <dd><a rel="nofollow" target="_blank" href="//mobile.jd.com/">京东通信</a></dd><dd><a rel="nofollow" target="_blank" href="//smart.jd.com/">京鱼座智能</a></dd>
+                        </dl>
+                        <span class="clr"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-2017">
+            <div class="w">
+                <div class="copyright_links">
+                    <p>
+                        <a href="//about.jd.com" target="_blank">关于我们</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//about.jd.com/contact/" target="_blank">联系我们</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//help.jd.com/user/custom.html" target="_blank">联系客服</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//lai.jd.com" target="_blank">合作招商</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//helpcenter.jd.com/venderportal/index.html" target="_blank">商家帮助</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//jzt.jd.com" target="_blank">营销中心</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//app.jd.com/" target="_blank">手机京东</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//club.jd.com/links.aspx" target="_blank">友情链接</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//media.jd.com/" target="_blank">销售联盟</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//pro.jd.com/mall/active/3WA2zN8wkwc9fL9TxAJXHh5Nj79u/index.html" target="_blank">京东社区</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//pro.jd.com/mall/active/3TF25tMdrnURET8Ez1cW9hzfg3Jt/index.html" target="_blank">风险监测</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//about.jd.com/privacy/" target="_blank">隐私政策</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//gongyi.jd.com" target="_blank">京东公益</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//en.jd.com/" target="_blank">English Site</a>
+                        <span class="copyright_split">|</span>
+                        <a href="//corporate.jd.com/" target="_blank">Media &amp; IR</a>
+                    </p>
+                </div>
+                <div class="copyright_info">
+                    <p>
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088" target="_blank">京公网安备 11000002000088</a><span class="copyright_split">|</span><span>京ICP证070359号</span><span class="copyright_split">|</span><a href="//img30.360buyimg.com/poprx/jfs/t1/45702/1/7206/3652062/5d4d3f4fE7ea82da4/207332da28ae8230.png" target="_blank">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span class="copyright_split">|</span><span>新出发京零&nbsp;字第大120007号</span>
+                    </p>
+                    <p>
+                        <span>互联网出版许可证编号新出网证(京)字150号</span><span class="copyright_split">|</span><a href="//pro.jd.com/mall/active/3bVDLXHdwVmdQksGF8TtS7ocq1NY/index.html" target="_blank">出版物经营许可证</a><span class="copyright_split">|</span><a href="//misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a><span class="copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span>
+                    </p>
+                    <p>
+                        <span class="copyright_text">Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;<em id="copyright_year">2019</em>&nbsp;&nbsp;京东JD.com&nbsp;版权所有</span><span class="copyright_split">|</span><span>消费者维权热线：4006067733</span><a href="//pro.jd.com/mall/active/38PitHBfR7ZopNHRSHnuuWR5AMDL/index.html" target="_blank" class="copyright_license">经营证照</a><span class="copyright_split">|</span><span>(京)网械平台备字(2018)第00003号</span><span class="copyright_split">|</span><a href="//storage.jd.com/imgtools/cbdaa22553-dccaf290-d1af-11e8-a840-89f99f5f0056.jpeg" target="_blank" class="mod_business_license">营业执照</a>
+                    </p>
+                    <p class="mod_copyright_inter">
+                        <a class="mod_copyright_inter_lk" href="//www.joybuy.com/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0501"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_global"></i>Global Site</a>
+                        <span class="copyright_split">|</span>
+                        <a class="mod_copyright_inter_lk" href="//www.jd.ru/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0502"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_rissia"></i>Сайт России</a>
+                        <span class="copyright_split">|</span>
+                        <a class="mod_copyright_inter_lk" href="//www.jd.id/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0503"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_indonesia"></i>Situs Indonesia</a>
+                        <span class="copyright_split">|</span>
+                        <a class="mod_copyright_inter_lk" href="//www.joybuy.es/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0504"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_spain"></i>Sitio de España</a>
+                        <span class="copyright_split">|</span>
+                        <a class="mod_copyright_inter_lk" href="//www.jd.co.th/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0505"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_thailand"></i>เว็บไซต์ประเทศไทย</a>
+                    </p>
+                    <p>
+                        <span>京东旗下网站：</span><a href="https://www.jdpay.com/" target="_blank">京东钱包</a><span class="copyright_split">|</span>
+                        <a href="https://www.jdcloud.com" target="_blank">京东云</a>
+                    </p>
+                </div>
+                <p class="copyright_auth">
+                    <a id="urlknet" class="copyright_auth_ico copyright_auth_ico_2" onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=776059" target="_blank">可信网站信用评估</a><a class="copyright_auth_ico copyright_auth_ico_3" href="http://www.cyberpolice.cn/" target="_blank">网络警察提醒你</a>
+                    <a class="copyright_auth_ico copyright_auth_ico_4" href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank">诚信网站</a>
+                    <a class="copyright_auth_ico copyright_auth_ico_5" href="http://www.12377.cn" target="_blank">中国互联网举报中心</a>
+                    <a class="copyright_auth_ico copyright_auth_ico_6" href="http://www.12377.cn/node_548446.htm" target="_blank">网络举报APP下载</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="chaoshi_lift" id="chaoshi_lift_27">
+        <ul class="chaoshi_lift_list">
+            <li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','清洁用品','6')">
+                <a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_6">清洁用品</a>
+            </li>
+            <li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','纸品湿巾','7')">
+                <a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_7">纸品湿巾</a>
+            </li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','水饮冲调','9')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_9">水饮冲调</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','京东生鲜','10')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_10">京东生鲜</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','粮油调味','11')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_11">粮油调味</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','图书文具','13')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_13">图书文具</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','厨房用品','14')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_14">厨房用品</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','营养保健','15')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_15">营养保健</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','小家电','16')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_16">小家电</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','美容护肤','17')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_17">美容护肤</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','母婴用品','18')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_18">母婴用品</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','家居日用','19')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_19">家居日用</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','宠物园艺','20')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_20">宠物园艺</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','家用纺织','21')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_21">家用纺织</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','运动户外','22')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_22">运动户外</a></li><li class="chaoshi_lift_item" onclick="++pageConfig.chaoshiClickNum;log('chaoshi','nav_floor','猜你喜欢','23')"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|elitem27_23">猜你喜欢</a></li><li class="chaoshi_lift_top chaoshi_lift_item_last"><a href="javascript:;" class="chaoshi_lift_item_btn" clstag="channel|keycount|3054|eltop27_1"><i class="chaoshi_lift_top_icon mod_png"></i>回到顶部</a></li>
+        </ul>
+    </div>
+<script>
+    var arr=[];
+    for(var i=0;i<$(".gl-item").length;i++){
+        var o={}
+        o.good_id=i+181;
+        o.src=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-img").children("a").children("img")[0].src;
+        o.title=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-img").children("a")[0].title;
+        o.price=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-price").children("strong").children("i").text();
+        o.disCount=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-commit").children("strong").children("a").text();
+        o.shopName=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-shop").children(".J_im_icon").children("a").text();
+        o.type=$(".gl-item").eq(i).children(".gl-i-wrap").children(".p-icons").children(".goods-icons").text();
+        arr.push(o);
+    }
+    
+
+</script>
+    <li data-sku="8667369" class="gl-item hover">
+        <div class="gl-i-wrap">
+            <div class="p-img">
+                <a target="_blank" title="酷兮兮 肉类休闲零食大礼包一整箱送女友女生儿童礼盒豆干食品超市网红好吃的组合装1500g" href="https://item.jd.com/8667369.html">
+                    <img width="220" height="220" class="" data-img="1" source-data-lazy-img="" data-lazy-img="done" src="//img14.360buyimg.com/n7/jfs/t1/7965/24/3560/849892/5bd7c3bfE59835aa6/d3dfc2021dd9f836.jpg">
+                </a>
+                <div data-lease="" data-catid="1590" data-venid="1000165922" data-presale="" data-done="1"></div>
+            </div>
+            <div class="p-price">
+                <strong class="J_8667369" data-done="1"><em>￥</em><i>79.90</i></strong>
+            </div>
+            <div class="p-name p-name-type-2">
+                <a target="_blank" title="酷兮兮 肉类休闲零食大礼包一整箱送女友女生儿童礼盒豆干食品超市网红好吃的组合装1500g" href="https://item.jd.com/8667369.html">
+                    <em>酷兮兮 肉类<font class="skcolor_ljg">休闲</font>零食大<font class="skcolor_ljg">礼包</font>一整箱送女友女生儿童礼盒豆干<font class="skcolor_ljg">食品</font>超市网红好吃的组合装1500g</em>
+                    <i class="promo-words" id="J_AD_8667369"></i>
+                </a>
+            </div>
+            <div class="p-commit" data-done="1">
+                <strong><a id="J_comment_8667369" target="_blank" href="https://item.jd.com/8667369.html">7.6万+</a>条评价</strong>
+            </div>
+            <div class="p-shop" data-selfware="1" data-score="0" data-reputation="58" data-verderid="1000165922" data-done="1">
+                <span class="J_im_icon">
+                    <a target="_blank" onclick="searchlog(1,1000165922,0,58)" href="//mall.jd.com/index-1000165922.html" title="酷兮兮（coolxixi）京东自营旗舰店">酷兮兮（coolxixi）京东自营旗舰店</a>
+                    <b class="im-02" title="联系客服"></b>
+                </span>
+            </div>
+            <div class="p-icons" id="J_pro_8667369" data-done="1">
+                <i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+            </div>
+                        <div class="p-operate">
+                            <a class="p-o-btn contrast J_contrast" data-sku="8667369" href="javascript:;" onclick="searchlog(1,8667369,0,6,'','adwClk=1')"><i></i>对比</a>
+                            <a class="p-o-btn focus J_focus" data-sku="8667369" href="javascript:;" onclick="searchlog(1,8667369,0,5,'','adwClk=1')"><i></i>关注</a>
+                            <a class="p-o-btn addcart" href="//cart.jd.com/gate.action?pid=8667369&amp;pcount=1&amp;ptype=1" target="_blank" onclick="searchlog(1,8667369,0,4,'','adwClk=1')" data-limit="0"><i></i>加入购物车</a>
+                        </div>
+                        <span class="p-promo-flag">广告</span>
+                        <img source-data-lazy-advertisement="done" style="display: none;" src="//misc.360buyimg.com/lib/img/e/blank.gif" class="err-poster">
+	</div>
+</li>
+</body>
+</html>

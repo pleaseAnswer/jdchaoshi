@@ -1,0 +1,2322 @@
+#categorys-mini,#channel {
+	display: none
+}
+
+#logo-2014 {
+	width: 382px;
+	height: 56px;
+	padding: 0;
+	margin-top: 26px;
+	margin-bottom: 22px
+}
+
+#logo-2014 .extra {
+	background: none
+}
+
+#logo-2014 .logo {
+	position: absolute;
+	left: -9999px;
+	left: 0;
+	margin-top: 0;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@1x.png);
+	background-position: 0 0;
+	-moz-background-size: 213px 82px;
+	background-size: 213px 82px;
+	background-repeat: no-repeat;
+	width: 213px;
+	height: 54px
+}
+
+#logo-2014 #ttbar-mycity .item a:hover {
+	background-color: #f4f4f4
+}
+
+#logo-2014 #ttbar-mycity .item a.selected {
+	background-color: #f10215;
+	color: #fff
+}
+
+#logo-2014 .areamini_inter {
+	margin: 10px 0 10px 10px
+}
+
+#logo-2014 .areamini_inter_split {
+	width: 262px;
+	height: 0;
+	border-bottom: 1px dotted #eee
+}
+
+#logo-2014 .areamini_inter_desc {
+	margin: 9px 0
+}
+
+#logo-2014 .areamini_inter_list {
+	overflow: hidden
+}
+
+#logo-2014 .areamini_inter_item {
+	float: left;
+	width: 145px;
+	height: 26px;
+	padding: 0;
+	line-height: 26px
+}
+
+#logo-2014 .areamini_inter_lk {
+	display: block;
+	overflow: hidden
+}
+
+#logo-2014 .areamini_inter_ico {
+	float: left;
+	position: relative;
+	top: 7px;
+	margin-right: 8px;
+	width: 15px;
+	height: 10px;
+	border: 1px solid transparent
+}
+
+#logo-2014 .areamini_inter_ico_global {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 12px;
+	margin-top: -1px;
+	background-image: url(data:image/png)
+}
+
+#logo-2014 .areamini_inter_ico_russia {
+	background-position: -20px 0
+}
+
+#logo-2014 .areamini_inter_ico_indonesia,#logo-2014 .areamini_inter_ico_russia {
+	background-repeat: no-repeat;
+	background-image: url(data:image/png);
+    border: 1px solid #ebebeb
+}
+
+#logo-2014 .areamini_inter_ico_indonesia {
+	background-position: 0 -17px
+}
+
+#logo-2014 .areamini_inter_ico_thailand {
+	background-position: -20px -17px
+}
+
+#logo-2014 .areamini_inter_ico_spain,#logo-2014 .areamini_inter_ico_thailand {
+	background-repeat: no-repeat;
+	background-image: url(data:image/png)
+}
+
+#logo-2014 .areamini_inter_ico_spain {
+	background-position: -40px 0
+}
+
+#logo-2014 .areamini_inter_name {
+	float: left;
+	width: 120px
+}
+
+.logo_dropdown {
+	position: absolute;
+	width: 90px;
+	top: 12px;
+	left: 234px;
+	z-index: 3
+}
+
+.dropdown_locate {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@1x.png);
+	background-position: 0 -56px;
+	-moz-background-size: 213px 82px;
+	background-size: 213px 82px;
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 26px
+}
+
+.dropdown_arrow_icon {
+	width: 11px;
+	height: 7px
+}
+
+.dropdown_wrap {
+	width: 65px;
+	height: 26px;
+	margin-left: 6px
+}
+
+.logo_dropdown .dropdown_box {
+	height: 24px;
+	border-bottom: 2px solid #c91523
+}
+
+.logo_dropdown .dropdown_box .dt {
+	color: #fff;
+	text-align: center;
+	font-size: 0;
+	line-height: 24px
+}
+
+.logo_dropdown .dropdown_box .ui-areamini-text {
+	overflow: hidden;
+	text-align: center;
+	color: #c91523;
+	font-size: 14px;
+	margin-left: -5px
+}
+
+.logo_dropdown .cw-icon i {
+	right: 0;
+	top: 9px;
+	text-indent: -9999px;
+	-webkit-transition: -webkit-transform .1s ease;
+	transition: -webkit-transform .1s ease;
+	-moz-transition: transform .1s ease,-moz-transform .1s ease;
+	transition: transform .1s ease;
+	transition: transform .1s ease,-webkit-transform .1s ease,-moz-transform .1s ease;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@1x.png);
+	background-position: -19px -56px;
+	-moz-background-size: 213px 82px;
+	background-size: 213px 82px;
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 7px
+}
+
+.logo_dropdown .hover .cw-icon i {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+
+.dropdown_wrap li .dd {
+	line-height: 24px
+}
+
+.dropdown_wrap .dropdown_box .dd {
+	width: 301px;
+	padding: 10px 0 10px 10px
+}
+
+.dropdown_wrap li .dorpdown-layer {
+	top: 26px;
+	left: -1px;
+	background: #fff;
+	border: 1px solid #ddd
+}
+
+.dropdown_wrap .dropdown_box li .dd .dd-spacer {
+	position: absolute;
+	top: -3px;
+	height: 10px;
+	background: #fff;
+	overflow: hidden
+}
+
+.dropdown_wrap .dropdown_box .dorpdown-layer .item {
+	float: left;
+	width: 60px;
+	padding: 2px 0
+}
+
+.dropdown_wrap .dropdown_box .dorpdown-layer .item a {
+	float: left;
+	padding: 0 8px
+}
+
+#search-2014 .button {
+	background: #ffa133
+}
+
+#search-2014 .text {
+	border-color: #ffa133
+}
+
+.o2_retina #logo-2014 .logo {
+	background-position: 0 0;
+	width: 213px;
+	height: 54px
+}
+
+.o2_retina #logo-2014 .logo,.o2_retina .dropdown_locate {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@2x.png);
+	-moz-background-size: 213px 81px;
+	background-size: 213px 81px;
+	background-repeat: no-repeat
+}
+
+.o2_retina .dropdown_locate {
+	background-position: 0 -55px;
+	width: 17px;
+	height: 26px
+}
+
+.o2_retina .logo_dropdown .cw-icon i {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_mod_header_v3@2x.png);
+	background-position: -18px -55px;
+	-moz-background-size: 213px 81px;
+	background-size: 213px 81px;
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 7px
+}
+
+@media only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
+	#logo-2014 .areamini_inter_ico_global {
+		background-repeat: no-repeat;
+		-moz-background-size: 50px 24.5px;
+		background-size: 50px 24.5px;
+		background-position: 0 0;
+		background-image: url(data:image/png)
+	}
+
+	#logo-2014 .areamini_inter_ico_russia {
+		background-position: -17.5px 0
+	}
+
+	#logo-2014 .areamini_inter_ico_indonesia,#logo-2014 .areamini_inter_ico_russia {
+		background-repeat: no-repeat;
+		-moz-background-size: 50px 24.5px;
+		background-size: 50px 24.5px;
+        background-image: url(data:image/png);
+        border: 1px solid #ebebeb
+	}
+
+	#logo-2014 .areamini_inter_ico_indonesia {
+		background-position: 0 -14.5px
+	}
+
+	#logo-2014 .areamini_inter_ico_thailand {
+		background-position: -17.5px -14.5px
+	}
+
+	#logo-2014 .areamini_inter_ico_spain,#logo-2014 .areamini_inter_ico_thailand {
+		background-repeat: no-repeat;
+		-moz-background-size: 50px 24.5px;
+		background-size: 50px 24.5px;
+		background-image: url(data:image/png)
+	}
+
+	#logo-2014 .areamini_inter_ico_spain {
+		background-position: -35px 0
+	}
+}
+
+.mod_ver {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0;
+	font-size: 0
+}
+
+.chaoshi_mod_head {
+	overflow: hidden;
+	padding: 0 0 20px;
+	height: 35px;
+    background: url(data:image/png) repeat-x 0 16px;
+    text-align: center;
+	font-size: 24px;
+	line-height: 35px
+}
+
+.chaoshi_mod_head_title {
+	display: inline;
+	padding: 0 50px;
+	background-color: #f6f6f6;
+	font-weight: 400;
+	font-size: 26px;
+	color: #333
+}
+
+.chaoshi_rec {
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+
+.chaoshi_rec_pic {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 140px
+}
+
+.chaoshi_rec img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -800px
+}
+
+.goods_list_items {
+	float: left;
+	width: 1194px
+}
+
+.goods_item {
+	position: relative;
+	float: left;
+	width: 199px;
+	height: 232px;
+	overflow: hidden
+}
+
+.goods_pic {
+	display: block;
+	margin: 0 auto 10px;
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	overflow: hidden
+}
+
+.goods_img {
+	width: 100%;
+	height: 100%
+}
+
+.goods_title {
+	display: block;
+	font-size: 12px;
+	color: #333
+}
+
+.goods_desc,.goods_title {
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.goods_desc {
+	margin-bottom: 14px;
+	height: 18px;
+	color: #999;
+	white-space: nowrap;
+	text-align: left
+}
+
+.goods_item:hover .goods_desc,.goods_item:hover .goods_price_origin,.goods_item:hover .goods_title {
+	display: none;
+	float: none
+}
+
+.goods_price {
+	font-size: 18px;
+	color: #ff002f
+}
+
+.goods_price_origin {
+	float: right;
+	color: #999
+}
+
+.goods_add,.goods_item:hover .goods_price,.goods_item:hover .goods_priceall {
+	text-align: center
+}
+
+.goods_add {
+	display: block;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #ffa133;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer
+}
+
+.goods_item .goods_add {
+	-webkit-transition: bottom .25s ease;
+	-moz-transition: bottom .25s ease;
+	transition: bottom .25s ease
+}
+
+.goods_add_txt {
+	display: inline-block;
+	vertical-align: middle
+}
+
+.goods_add_icon {
+	margin: 0 6px 0 0
+}
+
+.goods_item:hover .goods_add {
+	bottom: 0
+}
+
+.goods_add:hover {
+	color: #fff
+}
+
+.cdb_add_icon,.cdi_add_icon,.goods_add_icon {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: -21px -52px;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px
+}
+
+.o2_retina .cdb_add_icon,.o2_retina .cdi_add_icon,.o2_retina .goods_add_icon {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@2x.png);
+	background-position: 0 -51px;
+	-moz-background-size: 116px 67px;
+	background-size: 116px 67px;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px
+}
+
+.chaoshi_fs {
+	position: relative;
+	min-height: 583px;
+	margin-bottom: 15px
+}
+
+.chaoshi_menu {
+	background: #fff!important;
+	height: 33px;
+	font-size: 0;
+	overflow: hidden
+}
+
+.chaoshi_menu_list {
+	padding-left: 190px
+}
+
+.chaoshi_menu_list_item {
+	position: relative;
+	margin-left: -1px;
+	font-size: 0
+}
+
+.chaoshi_menu_list_link {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	line-height: 33px;
+	padding: 0 13px;
+	font-size: 14px;
+	text-align: center;
+	color: #333
+}
+
+.chaoshi_menu_list_link:hover {
+	color: #ffa133
+}
+
+.o2_wide .chaoshi_menu_list_link {
+	padding: 0 24px
+}
+
+.chaoshi_menu_list_link_on {
+	color: #ffa133
+}
+
+.chaoshi_menu_list_split {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -6px;
+	width: 1px;
+	height: 12px;
+	background-color: #ccc
+}
+
+.chaoshi_menu_ad_item {
+	margin-left: 14px;
+	color: #3c3c3c;
+	font-size: 14px
+}
+
+.o2_wide .chaoshi_menu_ad_item {
+	margin-left: 26px
+}
+
+.o2_wide .chaoshi_menu_ad_item_first {
+	margin-left: 0
+}
+
+.chaoshi_menu_ad_icon,.chaoshi_menu_ad_txt {
+	vertical-align: middle;
+	display: inline-block;
+	zoom: 1;
+	line-height: 33px
+}
+
+.chaoshi_menu_ad_icon {
+	margin-right: 7px;
+	width: 22px;
+	height: 21px
+}
+
+.chaoshi_nav {
+	width: 190px;
+	position: absolute;
+	top: -33px;
+	left: 0;
+	height: 583px;
+	z-index: 6
+}
+
+.chaoshi_nav_header {
+	height: 33px;
+	line-height: 33px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 15px;
+	background-color: #ffa133
+}
+
+.chaoshi_nav_body {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	*zoom: 1
+}
+
+.chaoshi_nav_body .item {
+	height: 60px;
+	padding: 0 15px;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: #fff;
+	_overflow: hidden
+}
+
+.chaoshi_nav_body .item_hover {
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 59px
+}
+
+.chaoshi_nav_body .item_hover .item_header_title {
+	font-weight: 700
+}
+
+.chaoshi_nav_body .item_hover .item_header_title_arrow {
+	display: none
+}
+
+.chaoshi_nav_body .item_hover .item_header {
+	border-bottom: 0
+}
+
+.chaoshi_nav_body .item_last {
+	height: 61px
+}
+
+.chaoshi_nav_body .item_last .item_header {
+	border-bottom-color: #fff
+}
+
+.chaoshi_nav_body .item_decoration {
+	display: none;
+	position: absolute;
+	width: 1px;
+	height: 59px;
+	top: 0;
+	right: -16px;
+	_right: -17px;
+	background-color: #fff;
+	z-index: 22
+}
+
+.chaoshi_nav_body .item_header {
+	padding-top: 11px;
+	border-bottom: 1px solid transparent;
+	width: 159px;
+	height: 49px;
+	position: relative;
+	*z-index: 22
+}
+
+.chaoshi_nav_body .item_header_title {
+	color: #333;
+	margin-bottom: 2px;
+	position: relative;
+	height: 20px;
+	font-weight: 400
+}
+
+.chaoshi_nav_body .item_header_title_arrow {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	display: block;
+	width: 5px;
+	height: 9px;
+	font-size: 14px;
+	font-family: simsun;
+	font-weight: 400
+}
+
+.chaoshi_nav_body .item_header_sublinks {
+	font-size: 12px;
+	color: #999;
+	height: 18px;
+	*zoom: 1;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+.chaoshi_nav_body .item_header_sublinks_link {
+	font-size: 12px;
+	color: #999;
+	margin-right: 3px;
+	margin-left: 3px
+}
+
+.chaoshi_nav_body .item_header_sublinks_link:hover {
+	color: #ffa133
+}
+
+.chaoshi_nav_body .item_header_sublinks_link_first {
+	margin-left: 0
+}
+
+.chaoshi_nav_body .item_header_sublinks_link_last {
+	margin-right: 0
+}
+
+.chaoshi_nav_body .item_body {
+	position: absolute;
+	left: 190px;
+	top: 0;
+	background-color: #fff;
+	width: 1000px;
+	display: none;
+	-moz-box-shadow: 4px 0 8px rgba(0,0,0,.2);
+	box-shadow: 4px 0 8px rgba(0,0,0,.2);
+	visibility: hidden;
+	z-index: 21
+}
+
+.chaoshi_nav_body .item_body.norecommend {
+	width: 780px
+}
+
+.item_body_wrapper {
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 30px 30px 52px 56px
+}
+
+.chaoshi_nav_sub {
+	width: 692px;
+	min-height: 1px;
+	_height: 1px;
+	_overflow: visible;
+	position: relative;
+	float: left
+}
+
+.chaoshi_nav_sub_item {
+	float: left;
+	width: 190px;
+	height: 93px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	overflow: hidden
+}
+
+.chaoshi_nav_sub_title {
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ddd
+}
+
+.chaoshi_nav_sub_main {
+	padding-top: 6px
+}
+
+.chaoshi_nav_sub_main_link {
+	margin-right: 14px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #777;
+	display: inline-block
+}
+
+.chaoshi_nav_sub_main_link:hover {
+	color: #ffa133
+}
+
+.chaoshi_nav_recommend {
+	float: left;
+	width: 220px
+}
+
+.chaoshi_nav_recommend_link {
+	display: block;
+	width: 100%;
+	height: 95px;
+	margin-bottom: 20px
+}
+
+.chaoshi_nav_recommend_link_last {
+	margin-bottom: 0
+}
+
+.chaoshi_nav_recommend_pic {
+	width: 100%;
+	height: 100%
+}
+
+.chaoshi_nav_icons {
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-right: 5px
+}
+
+.chaoshi_banner {
+	position: relative;
+	height: 550px;
+	margin-bottom: 20px
+}
+
+.chaoshi_banner_right {
+	width: 200px;
+	float: left
+}
+
+.chaoshi_banner_wrapper {
+	position: relative;
+	z-index: 2;
+	height: 550px;
+	background: #f6f6f6
+}
+
+.chaoshi_banner_mid {
+	margin-left: 200px;
+	width: 780px;
+	height: 100%
+}
+
+.chaoshi_carousel {
+	width: 780px;
+	height: 400px;
+	overflow: hidden;
+	font-size: 0;
+	position: relative
+}
+
+.chaoshi_carousel_main {
+	width: 780px;
+	height: 100%;
+	position: relative
+}
+
+.chaoshi_carousel_item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0
+}
+
+.chaoshi_carousel_item.show {
+	z-index: 1
+}
+
+.chaoshi_carousel_link {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.chaoshi_carousel_img {
+	width: 780px;
+	height: 100%
+}
+
+.chaoshi_carousel_next,.chaoshi_carousel_prev {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	display: block;
+	width: 24px;
+	height: 60px;
+	line-height: 60px;
+	background: gray;
+	background: rgba(0,0,0,.21);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000,endColorstr=#32000000);
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000,endColorstr=#32000000);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	font-family: simsun;
+	color: #fff;
+	z-index: 5
+}
+
+.chaoshi_carousel_next:hover,.chaoshi_carousel_prev:hover {
+	color: #ffa133
+}
+
+.chaoshi_carousel_prev {
+	left: 0
+}
+
+.chaoshi_carousel_next {
+	right: 0
+}
+
+.chaoshi_carousel_next_icon,.chaoshi_carousel_prev_icon {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -9px;
+	margin-left: -4px;
+	z-index: 6
+}
+
+.chaoshi_carousel_nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 5
+}
+
+.chaoshi_carousel_nav_btn {
+	float: left;
+	display: inline-block;
+	*display: inline;
+	height: 5px;
+	background-color: #4a4110;
+	margin-right: 1px;
+	font-size: 0
+}
+
+.chaoshi_carousel_nav_btn_on {
+	background-color: #ec7002
+}
+
+.chaoshi_carousel_nav_btn_last {
+	margin-right: 0
+}
+
+.chaoshi_bottom {
+	width: 100%;
+	height: 150px;
+	font-size: 0;
+	overflow: hidden
+}
+
+.chaoshi_bottom_item {
+	width: 50%;
+	height: 150px
+}
+
+.chaoshi_bottom_link {
+	display: block
+}
+
+.chaoshi_bottom_img,.chaoshi_bottom_link {
+	width: 100%;
+	height: 100%
+}
+
+.chaoshi_right {
+	width: 200px;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	overflow: hidden
+}
+
+.chaoshi_right_tt {
+	padding: 10px 0;
+	line-height: 16px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #934b20
+}
+
+.chaoshi_right_tt:after,.chaoshi_right_tt:before {
+	content: "";
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 1px;
+	background: #934b20
+}
+
+.chaoshi_right_tip {
+	padding: 0 0 10px;
+	line-height: 1;
+	color: #af6f24;
+	opacity: .5
+}
+
+.chaoshi_coupon {
+	padding: 0 10px;
+	height: 275px;
+	background: #ffdeb2;
+	background: -moz-linear-gradient(top,#ffeec6 0,#ffd7a7 100%);
+	background: -webkit-linear-gradient(top,#ffeec6,#ffd7a7);
+	background: -webkit-linear-gradient(top,#ffeec6 0,#ffd7a7);
+	background: -moz-linear-gradient(top,#ffeec6 0,#ffd7a7);
+	background: linear-gradient(180deg,#ffeec6 0,#ffd7a7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffeec6",endColorstr="#ffd7a7",GradientType=0)
+}
+
+.chaoshi_coupon .chaoshi_right_tt {
+	padding: 20px 0 7px
+}
+
+.chaoshi_coupon_bd {
+	position: relative;
+	border-top: 4px solid #ffa133;
+	-moz-box-shadow: 0 3px 9px rgba(255,161,51,.25);
+	box-shadow: 0 3px 9px rgba(255,161,51,.25);
+	background: #fff
+}
+
+.chaoshi_coupon_info {
+	display: block;
+	position: relative;
+	height: 114px;
+	padding-top: 30px;
+	background: #fff;
+	text-align: left
+}
+
+.chaoshi_coupon_info:after,.chaoshi_coupon_info:before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	bottom: 33px;
+	width: 8px;
+	height: 8px;
+	background: #ffdeb2;
+	-moz-border-radius: 8px;
+	border-radius: 8px
+}
+
+.chaoshi_coupon_info:before {
+	left: -4px
+}
+
+.chaoshi_coupon_info:after {
+	right: -4px
+}
+
+.chaoshi_coupon_info_num1 {
+	height: 26px;
+	margin: 0 15px 12px;
+	font-size: 26px;
+	color: #68300a;
+	text-align: center
+}
+
+.chaoshi_coupon_info_num1 em {
+	margin-left: 6px;
+	line-height: 26px;
+	font-size: 36px;
+	font-weight: 700
+}
+
+.chaoshi_coupon_info_num2 {
+	height: 12px;
+	line-height: 12px;
+	margin: 0 18px 23px;
+	color: #5f3211;
+	text-align: center
+}
+
+.chaoshi_coupon_info_tip {
+	position: absolute;
+	bottom: 0;
+	left: 2px;
+	width: 175px;
+	height: 36px;
+	line-height: 36px;
+	color: #633415;
+	text-align: center;
+	border-top: 3px dashed #e6e6e6;
+	overflow: hidden
+}
+
+.chaoshi_coupon_more {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+	background: #ffa133;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden
+}
+
+.chaoshi_coupon_more:hover {
+	color: #fff
+}
+
+.chaoshi_handy {
+	padding: 0 10px;
+	height: 275px;
+	background: #fff2c6;
+	background: -moz-linear-gradient(top,#fff2c6 0,#ffdeaa 100%);
+	background: -webkit-linear-gradient(top,#fff2c6,#ffdeaa);
+	background: -webkit-linear-gradient(top,#fff2c6 0,#ffdeaa);
+	background: -moz-linear-gradient(top,#fff2c6 0,#ffdeaa);
+	background: linear-gradient(180deg,#fff2c6 0,#ffdeaa);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2c6",endColorstr="#ffdeaa",GradientType=0)
+}
+
+.chaoshi_handy_carousel_main {
+	height: 185px;
+	background: #fff;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 6px 13px rgba(255,160,24,.26);
+	box-shadow: 0 6px 13px rgba(255,160,24,.26)
+}
+
+.chaoshi_handy_carousel_item {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 20px 0
+}
+
+.chaoshi_handy_carousel_link {
+	display: block
+}
+
+.chaoshi_handy_carousel_img {
+	margin: 0 auto 20px;
+	width: 100px;
+	height: 100px
+}
+
+.chaoshi_handy_carousel_enter {
+	display: inline-block;
+	width: 105px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background: #ffa133;
+	background: -moz-linear-gradient(left,#ffa133 0,#ffc333 100%);
+	background: -webkit-linear-gradient(left,#ffa133,#ffc333);
+	background: -webkit-linear-gradient(left,#ffa133 0,#ffc333);
+	background: -moz-linear-gradient(left,#ffa133 0,#ffc333);
+	background: linear-gradient(90deg,#ffa133 0,#ffc333);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa133",endColorstr="#ffc333",GradientType=1)
+}
+
+.chaoshi_handy_carousel_enter:hover {
+	color: #fff
+}
+
+.chaoshi_handy_carousel_nav {
+	display: block;
+	font-size: 0;
+	padding-top: 10px;
+	height: 18px;
+	overflow: hidden
+}
+
+.chaoshi_handy_carousel_nav_btn {
+	display: inline-block;
+	margin: 0 4px;
+	width: 5px;
+	height: 5px;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background: #ffa133;
+	border: 1px solid #ffdeaa
+}
+
+.chaoshi_handy_carousel_nav_btn.on {
+	background: none;
+	border-color: #ffa133
+}
+
+.chaoshi_fs_act {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 33px;
+	width: 100%;
+	height: 550px
+}
+
+.chaoshi_fs_act.active .chaoshi_fs_act_banner {
+	width: 980px
+}
+
+.chaoshi_fs_act_inner {
+	position: relative;
+	height: 100%
+}
+
+.chaoshi_fs_act_lk {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	left: -350px;
+	top: 0;
+	width: 350px;
+	height: 550px
+}
+
+.chaoshi_fs_act_lk_img {
+	float: right;
+	background: none!important
+}
+
+.chaoshi_fs_act_banner {
+	overflow: hidden;
+	position: absolute;
+	z-index: 30;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 550px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease
+}
+
+.chaoshi_fs_act_banner_lk {
+	display: block;
+	height: 550px
+}
+
+.chaoshi_fs_act_banner_lk img {
+	width: 980px;
+	height: 550px
+}
+
+.chaoshi_fs_act_banner_close {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	background: #2d2d2d;
+	opacity: .3;
+	filter: alpha(opacity=30);
+	text-align: center;
+	cursor: pointer
+}
+
+.chaoshi_seckill {
+	min-height: 320px;
+	margin-bottom: 15px;
+	background: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/chaoshi_seckill_bg.png) center 0 no-repeat
+}
+
+.chaoshi_seckill_hd {
+	position: relative;
+	height: 70px;
+	line-height: 70px;
+	color: #fff
+}
+
+.chaoshi_seckill_tit {
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 78px;
+	height: 70px;
+	padding: 0 0 0 52px;
+	color: #333;
+	letter-spacing: 1px
+}
+
+.chaoshi_seckill_tit:before {
+	content: "";
+	position: absolute;
+	left: 19px;
+	top: 50%;
+	margin-top: -5px;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: 0 -52px;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 21px
+}
+
+.chaoshi_seckill_list {
+	float: left;
+	width: 990px;
+	height: 250px;
+	overflow: hidden;
+	background-color: #fff
+}
+
+.chaoshi_seckill_item {
+	float: left;
+	width: 164px;
+	height: 100%;
+	padding: 0 14px 0 19px;
+	border-right: 1px solid #e6e6e6
+}
+
+.chaoshi_seckill_item.last {
+	border-right: none
+}
+
+.chaoshi_seckill_item .csi_pic {
+	position: relative;
+	text-align: center
+}
+
+.chaoshi_seckill_item .csi_tag {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: -42px 0;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px;
+	z-index: 1
+}
+
+.chaoshi_seckill_item .csi_tag_txt {
+	font-size: 12px;
+	color: #fff;
+	line-height: 14px;
+	display: inline-block;
+	vertical-align: 2px;
+	padding-top: 2px
+}
+
+.chaoshi_seckill_item .csi_pic_lk {
+	display: block;
+	outline: 0
+}
+
+.chaoshi_seckill_item .csi_img {
+	width: 130px;
+	height: 130px;
+	margin: 17px 0;
+	transition: -webkit-transform .4s ease;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+.chaoshi_seckill_item .csi_pic_lk:hover .csi_img {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px)
+}
+
+.chaoshi_seckill_item .csi_name {
+	color: #333;
+	max-width: 100%;
+	margin-bottom: 12px;
+	height: 36px;
+	text-align: left;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	transition: -webkit-transform .4s ease
+}
+
+.chaoshi_seckill_item .csi_pic_lk:hover .csi_name {
+	color: #ffa133
+}
+
+.chaoshi_seckill_item .csi_price {
+	white-space: nowrap
+}
+
+.chaoshi_seckill_item .csi_price_new {
+	display: inline-block;
+	width: 95px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 5px;
+	color: #ff002f
+}
+
+.chaoshi_seckill_item .csi_price_origin {
+	display: inline-block;
+	color: #999;
+	font-size: 12px
+}
+
+.chaoshi_seckill_more {
+	float: right;
+	width: 200px;
+	height: 250px
+}
+
+.chaoshi_seckill_more img {
+	min-width: 200px;
+	min-height: 250px
+}
+
+.chaoshi_seckill_time {
+	float: left;
+	height: 70px
+}
+
+.chaoshi_seckill_time_tip {
+	float: left;
+	margin: 33px 25px 0 0;
+	padding-left: 15px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #333;
+	border-left: 1px solid #333
+}
+
+.chaoshi_seckill_time_main {
+	float: left
+}
+
+.chaoshi_seckill .time_item {
+	position: relative;
+	float: left;
+	width: 48px;
+	height: 35px;
+	background-color: #362746;
+	color: #fff;
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: 700;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 21px;
+	letter-spacing: 12px;
+	text-indent: 5px
+}
+
+.chaoshi_seckill .time_item:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -1px;
+	width: 2px;
+	height: 100%;
+	background: #efe6dd
+}
+
+.chaoshi_seckill .time_split {
+	float: left;
+	margin: 35px 4px 0;
+	width: 2px;
+	height: 6px;
+	font-size: 0;
+	line-height: 0
+}
+
+.chaoshi_seckill .time_split_dot {
+	display: block;
+	width: 2px;
+	height: 2px;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background: #362746
+}
+
+.chaoshi_seckill .time_split_top {
+	margin-bottom: 4px
+}
+
+.chaoshi_seckill .time_split_bottom {
+	top: 30px
+}
+
+.o2_retina .chaoshi_seckill_tit:before {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: 0 -52px;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 21px
+}
+
+.o2_retina .chaoshi_seckill_item .csi_tag {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@2x.png);
+	background-position: -41px 0;
+	-moz-background-size: 116px 67px;
+	background-size: 116px 67px;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px
+}
+
+.chaoshi_discount_listwrap {
+	position: relative;
+	float: left;
+	width: 990px;
+	height: 250px;
+	overflow: visible
+}
+
+.chaoshi_discount_listwrap:before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 10px dashed transparent;
+	overflow: hidden;
+	border-top: 10px solid #fe952d;
+	border-left: 10px solid #fe952d
+}
+
+.chaoshi_discount_listwrap:after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 990px;
+	height: 10px;
+	background: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/chaoshi_discount_line.png) 0 0 no-repeat
+}
+
+.chaoshi_discount_list {
+	width: 100%;
+	height: 100%;
+	background-color: #fff
+}
+
+.chaoshi_discount_item {
+	position: relative;
+	float: left;
+	width: 164px;
+	height: 100%;
+	padding: 0 14px 0 19px;
+	border-right: 1px solid #e6e6e6
+}
+
+.chaoshi_discount_item.last {
+	border-right: none
+}
+
+.chaoshi_discount_item .cdi_pic {
+	position: relative;
+	text-align: center
+}
+
+.chaoshi_discount_item .cdi_pic_lk {
+	display: block;
+	outline: 0
+}
+
+.chaoshi_discount_item .cdi_img {
+	width: 130px;
+	height: 130px;
+	margin: 17px 0;
+	transition: -webkit-transform .4s ease
+}
+
+.chaoshi_discount_item .cdi_pic_lk:hover .cdi_img {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px)
+}
+
+.chaoshi_discount_item .cdi_name {
+	color: #333;
+	max-width: 100%;
+	margin-bottom: 12px;
+	height: 36px;
+	text-align: left;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	transition: -webkit-transform .4s ease
+}
+
+.chaoshi_discount_item .cdi_pic_lk:hover .cdi_name {
+	color: #ffa133
+}
+
+.chaoshi_discount_item .cdi_price {
+	white-space: nowrap
+}
+
+.chaoshi_discount_item .cdi_price_new {
+	display: inline-block;
+	width: 95px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 5px;
+	color: #ff002f
+}
+
+.chaoshi_discount_item .cdi_price_origin {
+	display: inline-block;
+	color: #999;
+	font-size: 12px
+}
+
+.chaoshi_discount {
+	min-height: 575px;
+	margin-bottom: 25px
+}
+
+.chaoshi_discount .cdi_name {
+	display: block;
+	height: 18px;
+	white-space: nowrap;
+	margin-bottom: 2px
+}
+
+.chaoshi_discount .cdi_promote {
+	height: 18px;
+	margin-bottom: 12px
+}
+
+.chaoshi_discount_big .cdb_item {
+	position: relative;
+	float: left;
+	width: 388px;
+	margin: 0 10px 20px 0;
+	background: #fff;
+	border: 1px solid #f2f2f2
+}
+
+.chaoshi_discount_big .cdb_item.last {
+	margin-right: 0
+}
+
+.chaoshi_discount_big .cdb_bd {
+	position: relative;
+	padding: 20px 40px 0 190px;
+	height: 168px
+}
+
+.chaoshi_discount_big .cdb_tag {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	text-align: center;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: 0 0;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px;
+	z-index: 1
+}
+
+.chaoshi_discount_big .cdb_tag_txt {
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	vertical-align: 2px;
+	padding-top: 2px
+}
+
+.chaoshi_discount_big .cdb_pic {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 18px;
+	width: 150px;
+	height: 150px
+}
+
+.chaoshi_discount_big .cdb_pic img {
+	width: 100%;
+	height: 100%
+}
+
+.chaoshi_discount_big .cdb_lk {
+	display: inline-block;
+	overflow: hidden
+}
+
+.chaoshi_discount_big .cdb_logo {
+	display: block;
+	margin-bottom: 13px;
+	width: auto;
+	height: 36px;
+	background: none!important
+}
+
+.chaoshi_discount_big .cdb_name {
+	display: block;
+	height: 36px;
+	margin-bottom: 4px;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-transition: color .25s ease;
+	-moz-transition: color .25s ease;
+	transition: color .25s ease
+}
+
+.chaoshi_discount_big .cdb_name:hover {
+	color: #ffa133
+}
+
+.chaoshi_discount_big .cdb_promote1 {
+	height: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 10px;
+	color: #999
+}
+
+.chaoshi_discount_big .cdb_promote2 {
+	display: inline-block;
+	margin-bottom: 33px;
+	padding: 0 15px;
+	max-height: 36px;
+	color: #ffa133;
+	background: #fff5ea;
+	overflow: hidden
+}
+
+.chaoshi_discount_big .cdb_ft_l {
+	position: relative;
+	float: left;
+	padding-left: 29px;
+	width: 204px;
+	height: 60px;
+	background: #f75f3c
+}
+
+.chaoshi_discount_big .cdb_ft_l:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-top: 5px solid #fff;
+	border-left: 5px solid #fff;
+	overflow: hidden
+}
+
+.chaoshi_discount_big .cdb_ft_r {
+	float: right;
+	width: 155px;
+	height: 60px
+}
+
+.chaoshi_discount_big .cdb_price {
+	padding-top: 10px;
+	margin-bottom: 4px;
+	font-size: 16px;
+	color: #fff
+}
+
+.chaoshi_discount_big .cdb_price.nosalenum {
+	padding-top: 21px
+}
+
+.chaoshi_discount_big .cdb_num {
+	color: #fff;
+	opacity: .6
+}
+
+.chaoshi_discount_big .cdb_add {
+	bottom: -60px;
+	line-height: 60px;
+	background: #ffa133;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer
+}
+
+.chaoshi_discount_big .cdb_add:hover {
+	color: #fff
+}
+
+.chaoshi_discount_big .cdb_add_txt {
+	display: inline-block;
+	vertical-align: top
+}
+
+.chaoshi_discount_big .cdb_add_icon {
+	margin: 0 6px 0 0
+}
+
+.chaoshi_discount_small {
+	position: relative;
+	border-top: 1px solid #e6e6e6
+}
+
+.chaoshi_discount_small .cdi_name {
+	display: block;
+	height: 18px;
+	white-space: nowrap
+}
+
+.chaoshi_discount_small .cdi_add {
+	position: absolute;
+	right: 14px;
+	bottom: 16px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #ffa133
+}
+
+.chaoshi_discount_more {
+	position: relative;
+	z-index: 2;
+	float: right;
+	width: 200px;
+	height: 259px
+}
+
+.chaoshi_discount_more img {
+	margin-left: -20px;
+	min-width: 200px;
+	min-height: 259px
+}
+
+.o2_retina .chaoshi_discount_big .cdb_tag {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@2x.png);
+	background-position: 0 0;
+	-moz-background-size: 116px 67px;
+	background-size: 116px 67px;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px
+}
+
+.o2data-lazyload.chaoshi_rec {
+	min-height: 140px
+}
+
+.chaoshi_brand {
+	min-height: 605px;
+	margin-bottom: 15px
+}
+
+.chaoshi_brand_row {
+	margin-bottom: 10px
+}
+
+.chaoshi_brand_today {
+	float: left;
+	width: 390px;
+	height: 270px
+}
+
+.chaoshi_brand_today img {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease
+}
+
+.chaoshi_brand_today img:hover {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px)
+}
+
+.chaoshi_brand_list {
+	float: left
+}
+
+.chaoshi_brand_item {
+	float: left;
+	margin: 0 0 0 10px;
+	width: 190px;
+	height: 270px
+}
+
+.chaoshi_brand_item img {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease
+}
+
+.chaoshi_brand_item img:hover {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px)
+}
+
+.chaoshi_brand_small {
+	width: 1000px
+}
+
+.chaoshi_brand_small .chaoshi_brand_item {
+	margin: 0 10px 0 0
+}
+
+.chaoshi_brand_more {
+	float: left;
+	position: relative;
+	z-index: 2;
+	width: 190px;
+	height: 270px
+}
+
+.chaoshi_brand_more img {
+	margin-left: -20px;
+	min-height: 270px
+}
+
+.chaoshi_buy {
+	min-height: 315px;
+	margin-bottom: 15px;
+	margin-top: 30px
+}
+
+.chaoshi_buy_goods {
+	width: 1189px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	height: 260px;
+	top: 0;
+	left: 0;
+	*zoom: 1
+}
+
+.chaoshi_buy_goods.xinren .goods_item {
+	padding-left: 20px
+}
+
+.chaoshi_buy_goods_list {
+	background-color: #fff;
+	height: 260px;
+	-webkit-transition: -webkit-transform .6s cubic-bezier(0,1.35,.83,.98);
+	transition: -webkit-transform .6s cubic-bezier(0,1.35,.83,.98);
+	-moz-transition: transform .6s cubic-bezier(0,1.35,.83,.98),-moz-transform .6s cubic-bezier(0,1.35,.83,.98);
+	transition: transform .6s cubic-bezier(0,1.35,.83,.98);
+	transition: transform .6s cubic-bezier(0,1.35,.83,.98),-webkit-transform .6s cubic-bezier(0,1.35,.83,.98),-moz-transform .6s cubic-bezier(0,1.35,.83,.98);
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+.chaoshi_buy_goods_list .goods_item {
+	padding: 20px 20px 0 19px;
+	width: 160px;
+	height: 240px
+}
+
+.chaoshi_buy_goods_list .goods_item:hover {
+	-moz-box-shadow: 0 0 10px rgba(4,0,0,.1);
+	box-shadow: 0 0 10px rgba(4,0,0,.1)
+}
+
+.chaoshi_buy_goods_list .goods_item.xinren {
+	padding: 0;
+	width: 190px;
+	height: 260px
+}
+
+.chaoshi_buy_goods_list .goods_item.xinren:hover {
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+
+.chaoshi_buy_goods_list .goods_title {
+	white-space: nowrap
+}
+
+.chaoshi_buy_goods_next,.chaoshi_buy_goods_prev {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	display: block;
+	width: 24px;
+	height: 60px;
+	line-height: 60px;
+	background: #999;
+	background: rgba(0,0,0,.4);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	font-family: simsun;
+	color: #fff;
+	z-index: 5
+}
+
+.chaoshi_buy_goods_next:hover,.chaoshi_buy_goods_prev:hover {
+	color: #ffa133
+}
+
+.chaoshi_buy_goods_prev {
+	left: 0
+}
+
+.chaoshi_buy_goods_next {
+	right: 0
+}
+
+.chaoshi_category {
+	margin-bottom: 15px;
+	min-height: 540px;
+	margin-top: 40px
+}
+
+.chaoshi_category .chaoshi_rec {
+	margin-bottom: 20px
+}
+
+.chaoshi_category .goods_img {
+	min-width: 40%;
+	width: auto;
+	height: 130px
+}
+
+.chaoshi_category_bd {
+	height: 485px;
+	overflow: hidden
+}
+
+.chaoshi_category_focus {
+	position: relative;
+	width: 190px;
+	float: left
+}
+
+.chaoshi_category_focus_pic {
+	display: block
+}
+
+.chaoshi_category_focus img {
+	width: 190px;
+	height: 485px
+}
+
+.chaoshi_category_focus_key {
+	position: absolute;
+	bottom: 0;
+	height: 133px;
+	padding: 20px 10px 12px;
+	background: rgba(0,0,0,.2)
+}
+
+.chaoshi_category_focus_key_inner {
+	height: 133px;
+	overflow: hidden
+}
+
+.chaoshi_category_focus_key a {
+	float: left;
+	width: 73px;
+	height: 24px;
+	margin: 0 5px 8px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+	border: 1px solid hsla(0,0%,100%,.6);
+	background: hsla(0,0%,95%,.2);
+	overflow: hidden
+}
+
+.chaoshi_category_focus_key a:hover {
+	color: #fff;
+	border-color: #fff
+}
+
+.chaoshi_category_goods {
+	margin-left: 190px;
+	background-color: #fff
+}
+
+.chaoshi_category_goods .goods_item {
+	width: 169px;
+	height: 233px;
+	padding: 10px 15px 0;
+	border-left: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2
+}
+
+.chaoshi_category_goods .goods_pic {
+	width: 130px;
+	height: 130px;
+	margin-bottom: 17px
+}
+
+.chaoshi_category_goods .goods_title {
+	margin-bottom: 7px;
+	height: 36px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2
+}
+
+.chaoshi_category_goods .goods_price {
+	float: left;
+	margin-right: 10px;
+	font-size: 14px
+}
+
+.chaoshi_category_goods .goods_prices_plus {
+	display: none;
+	float: right;
+	font-size: 0
+}
+
+.chaoshi_category_goods .goods_prices_plus.show {
+	display: block
+}
+
+.chaoshi_category_goods .goods_prices_plus_txt {
+	margin-right: 5px;
+	font-size: 12px;
+	color: #000
+}
+
+.chaoshi_category_goods .goods_prices_plus_icon {
+	display: inline-block;
+	background: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/chaoshi_plus.png) 0 0 no-repeat;
+	width: 39px;
+	height: 12px
+}
+
+.chaoshi_category_goods .goods_add {
+	height: 50px;
+	line-height: 50px
+}
+
+.o2_retina .goods_prices_plus_icon {
+	background: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/chaoshi_plus@2x.png) 0 0 no-repeat;
+	-moz-background-size: 39px 12px;
+	background-size: 39px 12px
+}
+
+.chaoshi_like {
+	min-height: 299px
+}
+
+.chaoshi_like_list {
+	width: 1194px;
+	background: #fff
+}
+
+.chaoshi_like_list .goods_item {
+	width: 158px;
+	height: 233px;
+	padding: 10px 20px 0;
+	border-left: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2
+}
+
+.chaoshi_like_list .goods_title {
+	margin-bottom: 14px;
+	height: 36px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2
+}
+
+.chaoshi_lift {
+	width: 56px;
+	position: fixed;
+	left: 0;
+	display: none;
+	z-index: 100;
+	background: #fff;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	_position: absolute;
+	_bottom: auto;
+	_top: expression(eval(parseInt(document.documentElement.scrollTop + document.documentElement.clientHeight * .5 - this.offsetHeight * .5)))
+}
+
+.chaoshi_lift_item {
+	font-size: 12px;
+	text-align: center;
+	position: relative
+}
+
+.chaoshi_lift_item_btn {
+	color: #666;
+	cursor: pointer;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 3px 0;
+	display: block;
+	text-align: center
+}
+
+.chaoshi_lift_item_btn_active .chaoshi_lift_item_btn {
+	color: #fff
+}
+
+.chaoshi_lift_item_btn:hover,.chaoshi_lift_item_btn_active {
+	color: #fff;
+	background: #ffa133
+}
+
+.chaoshi_lift_nav {
+	border: 1px solid #ffa133;
+	background-color: #ffa133;
+	color: #fff
+}
+
+.chaoshi_lift_nav:hover {
+	color: #fff
+}
+
+.chaoshi_lift_top .chaoshi_lift_item_btn {
+	background-color: #ffa133;
+	color: #fff;
+	border-color: #ffa133
+}
+
+.chaoshi_lift_top .chaoshi_lift_item_btn:hover {
+	color: #fff;
+	border-color: #ffa133
+}
+
+.chaoshi_lift_top {
+	border: 0;
+	background: #ff2d54;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 0
+}
+
+.chaoshi_top {
+	display: none
+}
+
+.chaoshi_top_lk {
+	display: block;
+	position: relative
+}
+
+.chaoshi_top_close {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	cursor: pointer
+}
+
+.chaoshi_pop_bd {
+	position: fixed;
+	z-index: 999;
+	top: 50%;
+	left: 50%;
+	margin: -225px 0 0 -225px;
+	width: 450px;
+	height: 450px;
+	line-height: 450px;
+	text-align: center;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	transition: all .8s ease;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0)
+}
+
+.chaoshi_pop_lk {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.chaoshi_pop_close {
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 12px;
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@1x.png);
+	background-position: -84px 0;
+	-moz-background-size: 118px 73px;
+	background-size: 118px 73px;
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px
+}
+
+.chaoshi_pop_bd.animate {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+.o2_ie8 .chaoshi_pop_bd {
+	display: none
+}
+
+.o2_ie8 .chaoshi_pop_bd.animate {
+	display: block
+}
+
+.o2_retina .chaoshi_pop_close {
+	background-image: url(//static.360buyimg.com/mtd/pc/supermarket_v3/3.0.1/v3/images/sprite_chaoshi_index@2x.png);
+	background-position: -82px 0;
+	-moz-background-size: 116px 67px;
+	background-size: 116px 67px;
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px
+}
+
+.athena-deploy {
+	display: block
+}

@@ -1,0 +1,48 @@
+[{
+    "data_id":"6",
+    "name":"图书文具",
+    "bigImg":"https://img10.360buyimg.com//babel/jfs/t1/42798/13/1539/33605/5cc6936cEf58bc94d/542eb5905c3ecdfd.jpg!q80.webp",
+    "bigCon":["图书", "童书", "生活百科", "学生文具", "钢笔", "时尚文具", "晨光文具", "小说"],
+    "list":[
+    {
+        "alt": "自慢：如何成为一个有绝活的人1——菜鸟的成长笔记",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t30406/353/885358477/188340/7153b3/5c00a51cN9a71f840.jpg!q80.webp",
+        "price": "¥37.80"
+    },{
+        "alt": "走，去博物馆—漫话国宝系列（中国国家博物馆，陕西历史博物馆，河南博物院三册装）",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t1/8814/19/10749/425884/5c24aa8aE7e0c0638/1dd53c650d94b144.jpg!q80.webp",
+        "price": "¥72.09"
+    },{
+        "alt": "疯狂Python讲义",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/7946/39/6888/109241/5be28195Eee6ede41/25404f189716f1b2.jpg!q80.webp",
+        "price": "¥94.10"
+    },{
+        "alt": "崔玉涛育儿百科",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t1/27305/8/450/322909/5c0a1636E60e03729/9d8ab587f9d8adf1.jpg!q80.webp",
+        "price": "¥176.20"
+    },{
+        "alt": "迪士尼.幼小衔接英语单词大书（赠MP3下载 二维码听读）",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/26694/12/1301/245759/5c11adabEb428e0dd/01ad4bbea640a827.jpg!q80.webp",
+        "price": "¥39.90"
+    },{
+        "alt": "「诗礼传家」年物（故宫文创设计师倾力打造温暖贺岁年礼内含：日历、春联、福字、红包、信笺）",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t1/22913/23/1388/425551/5c11ff49E0841cf31/8ceec49583af59ec.jpg!q80.webp",
+        "price": "¥258.30"
+    },{
+        "alt": "易中天 读唐诗（摄影插图珍藏版，京东专享易中天手书“更上层楼”墨宝一幅）",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t1/20164/38/2822/454696/5c2053e5Eb664892a/250976bbc81e7bc5.jpg!q80.webp",
+        "price": "¥83.60"
+    },{
+        "alt": "有话说：崔永元",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/11283/23/2898/799911/5c184f8aE478ad2af/5ca519826f856b67.jpg!q80.webp",
+        "price": "¥37.10"
+    },{
+        "alt": "山海经(全译插图典藏版)（京东专享小岩井限量签名本）",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t1/15142/18/4892/334044/5c36cc06E43352c4b/4439d6780069d9ec.jpg!q80.webp",
+        "price": "¥61.80"
+    }, {   
+        "alt": "变量 看见中国社会小趋势",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/30877/34/418/474231/5c3bef03E10088d13/aeb72f016a51d45a.jpg!q80.webp",
+        "price": "¥44.30"  
+        }]
+}]

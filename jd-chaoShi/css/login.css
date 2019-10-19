@@ -1,0 +1,713 @@
+body {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: #666;
+}
+
+input {
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.wrap {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.login-wrap {
+  position: relative;
+  height: 475px;
+  margin: 10px 0 20px;
+  z-index: 5;
+}
+
+.login-wrap .login-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 475px;
+  background: #e93854;
+}
+
+.login-wrap .i-inner {
+  position: relative;
+  z-index: 3;
+  height: 475px;
+}
+
+.btn-img,
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.m, .mb, .mc, .mt, .sm, .smb, .smc, .smt {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.hide {
+  display: none;
+}
+
+.mt, .smt {
+  cursor: default;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+}
+
+.header .logo {
+  width: 170px;
+  height: 60px;
+  float: left;
+  margin: 10px 0;
+  background: url(../images/logo-b.png) no-repeat;
+}
+
+.header .logo-title {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #333;
+  margin: 26px 25px 14px;
+}
+
+#content {
+  clear: both;
+}
+
+#content .tips-wrapper {
+  background: #fff8f0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#content .tips-wrapper .cont-wrapper {
+  display: inline-block;
+  width: 90%;
+}
+
+#content .tips-wrapper .icon-tips {
+  background: url(../images/icon-tips.png);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#content .tips-wrapper .tips-inner p {
+  vertical-align: middle;
+  color: #999;
+  font-size: 12px;
+  display: inline-block;
+}
+
+#content .tips-wrapper .tips-inner .black {
+  color: #333;
+}
+
+#content .login-wrap {
+  margin-top: 0;
+}
+
+#content .login-wrap .login-form {
+  float: right;
+  top: 10px;
+}
+
+#content .tips-wrapper {
+  background: #fff8f0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#content .tips-wrapper .cont-wrapper {
+  display: inline-block;
+  width: 90%;
+}
+
+#content .tips-wrapper .icon-tips {
+  background: url(../images/icon-tips.png);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#content .tips-wrapper .tips-inner p {
+  vertical-align: middle;
+  color: #999;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.login-form {
+  position: relative;
+  z-index: 4;
+  background: #fff;
+  overflow: visible;
+  width: 346px;
+}
+
+.login-form .login-tab {
+  display: none;
+  height: 54px;
+  font-size: 18px;
+  font-family: "microsoft yahei";
+  text-align: center;
+  border-bottom: 1px solid #f4f4f4;
+  position: absolute;
+  background: #fff;
+  display: block;
+}
+
+.login-form .login-tab a {
+  width: 99%;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 18px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.login-form .login-tab a.checked,
+.login-form .login-tab a:hover {
+  display: block;
+  font-weight: 700;
+  color: #e4393c;
+}
+
+.login-form .login-tab-l,
+.login-form .login-tab-r {
+  width: 173px;
+}
+
+.login-form .login-tab-r {
+  right: 0;
+}
+
+.login-form .login-box {
+  width: 306px;
+  padding: 20px;
+  visibility: visible;
+}
+
+.login-form .login-box .mt {
+  display: inline-block;
+  display: block;
+  width: 306px;
+  overflow: visible;
+  height: 27px;
+}
+
+.login-form .login-box .tab-h {
+  height: 35px;
+}
+
+.login-form .login-box .mc {
+  overflow: visible;
+}
+
+.login-form .login-box .safe {
+  position: relative;
+  color: #666;
+}
+
+.login-form .login-box .safe span {
+  margin-right: 15px;
+}
+
+.login-form .login-box .safe .forget-pw-safe {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.login-form .login-box .login-btn {
+  border: 1px solid #cb2a2d;
+  margin: 0 auto;
+  height: 32px;
+  width: 99%;
+  position: relative;
+}
+
+.login-form .login-box .login-btn .btn-img {
+  border: 1px solid #e85356;
+  display: block;
+  width: 302px;
+  background: #e4393c;
+  height: 31px;
+  line-height: 31px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+}
+
+.login-form .msg-wrap {
+  min-height: 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: auto !important;
+}
+
+.login-form .msg-error {
+  position: relative;
+  background: #ffebeb;
+  color: #e4393c;
+  border: 1px solid #faccc6;
+  padding: 3px 10px 3px 40px;
+  line-height: 15px;
+  height: auto;
+}
+
+.login-form .msg-error b {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  display: block;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  background: url(../images/pwd-icons-new.png) -104px -49px no-repeat;
+}
+
+.login-form .qrcode-login {
+  display: none;
+  visibility: hidden;
+  width: 306px;
+  padding: 20px 18px 20px 20px;
+  text-align: center;
+}
+
+.login-form .qrcode-login .mc {
+  overflow: visible;
+}
+
+.login-form .qrcode-login .qrcode-main {
+  position: relative;
+  height: 168px;
+  margin-top: 55px;
+}
+
+.login-form .qrcode-login .qrcode-img {
+  border: 1px solid #f4f4f4;
+  padding: 8px;
+  width: 155px;
+  position: absolute;
+  left: 64px;
+}
+
+.login-form .qrcode-login .qrcode-img img {
+  width: 147px;
+  height: 147px;
+}
+
+.login-form .qrcode-login .qrcode-help {
+  display: none;
+  position: absolute;
+  right: -18px;
+  top: -2px;
+  width: 141px;
+  height: 168px;
+  background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/phone-orange.png) no-repeat;
+  z-index: 99;
+}
+
+.login-form .qrcode-login .qrcode-panel {
+  width: 257px;
+  font-size: 12px;
+  margin: 18px auto 14px;
+  text-align: center;
+}
+
+.login-form .qrcode-login .qrcode-panel ul {
+  display: block;
+}
+
+.login-form .qrcode-login .qrcode-panel li {
+  display: inline-block;
+  padding: 0 0 0 5px;
+  margin: 0 5px 0 0;
+}
+
+.login-form .qrcode-login .qrcode-panel li.fore1 {
+  border: 0;
+}
+
+.login-form .qrcode-login .qrcode-panel a {
+  color: #333;
+  text-decoration: none;
+  margin-left: -3px;
+}
+
+.login-form .qrcode-login .qrcode-panel .red {
+  color: #e4393c;
+}
+
+.login-form .qrcode-login:hover .qrcode-img {
+  left: 0;
+  transition: ease-in-out 200ms;
+}
+
+#formlogin {
+  display: block;
+}
+
+#formlogin .item {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+#formlogin .item .login-label {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  border-right: 1px solid #bdbdbd;
+  background: url(../images/pwd-icons-new.png) no-repeat;
+}
+
+#formlogin .item .pwd-label {
+  background-position: -48px 0;
+}
+
+#formlogin .item-fore1,
+#formlogin .item-fore2 {
+  border: 1px solid #bdbdbd;
+  height: 38px;
+  width: 304px;
+}
+
+#formlogin .item-fore1 .clear-btn,
+#formlogin .item-fore2 .clear-btn {
+  position: absolute;
+  z-index: 20;
+  right: 6px;
+  top: 12px;
+  width: 14px;
+  height: 14px;
+  background: url(../images/pwd-icons-new.png) -25px -143px no-repeat;
+  cursor: pointer;
+  display: none;
+}
+
+#formlogin .item-fore1 .capslock,
+#formlogin .item-fore2 .capslock {
+  position: absolute;
+  z-index: 4;
+  display: none;
+  width: 106px;
+  top: 28px;
+  left: 50px;
+  padding-left: 26px;
+  height: 26px;
+  line-height: 28px;
+  overflow: hidden;
+  background: url(../images/capslock.png) no-repeat;
+}
+
+#formlogin .item-fore1 .capslock b,
+#formlogin .item-fore2 .capslock b {
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 10px;
+  height: 14px;
+  overflow: hidden;
+  background: url(../images/pwd-icons-new.png) -104px -133px no-repeat;
+}
+
+#formlogin .item-fore1 {
+  z-index: 6;
+}
+
+#formlogin .item-fore2 {
+  height: 38px;
+  visibility: hidden;
+}
+
+#formlogin #canvas {
+  border: 1px solid #bdbdbd;
+  height: 38px;
+  width: 304px;
+}
+
+#formlogin #canvas label {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 59px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-right: 1px solid #bdbdbd;
+}
+
+#formlogin #canvas .item-input-wrap {
+  line-height: 38px;
+  height: 38px;
+  border: 0;
+  padding-left: 50px;
+  width: 254px;
+  float: none;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+#formlogin #canvas .item-input-wrap .field {
+  width: 74px;
+  height: 38px;
+  padding: 0 10px;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
+#formlogin #canvas .image-code-box {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 148px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+#formlogin .item-fore3 {
+  z-index: 5;
+  margin-bottom: 13px;
+}
+
+#formlogin .item-fore3.hide {
+  margin-bottom: 0;
+}
+
+#formlogin .item-fore5 {
+  margin-bottom: 10px;
+}
+
+#formlogin .label, #formlogin button, #formlogin input, #formlogin label, #formlogin select, #formlogin textarea {
+  float: left;
+  font-size: 12px;
+}
+
+#formlogin label {
+  float: none;
+}
+
+#formlogin .itxt {
+  line-height: 18px;
+  height: 18px;
+  border: 0;
+  padding: 10px 0 10px 50px;
+  width: 254px;
+  float: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: '\5b8b\4f53';
+}
+
+#formlogin .itxt02 {
+  padding: 10px 5px;
+  width: 150px;
+  text-align: center;
+}
+
+#formlogin #o-authcode.item {
+  border: 0;
+}
+
+#formlogin #o-authcode.item .itxt {
+  border: 1px solid #bdbdbd;
+  font-size: 14px;
+  padding: 7px 5px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#formlogin .item-vcode .itxt02, #formlogin .item-vcode .verify-code {
+  float: left;
+}
+
+#formlogin .item-vcode a {
+  width: 38px;
+  float: right;
+}
+
+#formlogin .verify-code {
+  cursor: pointer;
+  width: 90px;
+  height: 33px;
+  vertical-align: middle;
+}
+
+.coagent {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  height: auto;
+  background-color: #fcfcfc;
+}
+
+.coagent li {
+  float: left;
+}
+
+.coagent li a.pdl {
+  display: inline-block;
+  position: relative;
+  padding-left: 24px;
+}
+
+.coagent li a.pdl b {
+  width: 19px;
+  height: 18px;
+  display: block;
+  background: url(../images/QQ-weixin.png) no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  float: left;
+  left: 0;
+  top: 16px;
+}
+
+.coagent li a.pdl b.QQ-icon {
+  background-position: 0 0;
+}
+
+.coagent li a.pdl b.weixin-icon {
+  background-position: -20px 0;
+}
+
+.coagent li .line {
+  color: #ccc;
+  padding: 0 10px;
+}
+
+.coagent ul {
+  display: block;
+}
+
+.coagent li.extra-r {
+  float: right;
+}
+
+.coagent .regist-link {
+  color: #b61d1d;
+  font-size: 14px;
+}
+
+.coagent .regist-link a {
+  color: #b61d1d;
+}
+
+.coagent .regist-link b {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  background: url(../images/pwd-icons-new.png) -104px -75px no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.qr-coagent {
+  background-color: #fff;
+  font-family: "microsoft yahei";
+  color: #999;
+  border: none;
+  padding: 0;
+  line-height: 25px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.qr-coagent li {
+  text-align: left;
+  position: relative;
+  margin-right: 18px;
+}
+
+.qr-coagent li b {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background: url(../images/qr-coagent.png) no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+}
+
+.qr-coagent li em {
+  padding-left: 32px;
+}
+
+.qr-coagent li .faster {
+  background-position: -27px;
+}
+
+.qr-coagent li .more-safe {
+  background-position: -54px;
+}
+
+.footer {
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  border-top: solid 1px #e6e6e6;
+  padding-bottom: 30px;
+}
+
+.footer .links {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer .links a {
+  margin: 0 10px;
+}

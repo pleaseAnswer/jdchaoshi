@@ -1,0 +1,47 @@
+[{
+    "data_id":"1",
+    "name":"清洁用品",
+    "bigImg" : "https://img10.360buyimg.com//babel/jfs/t17836/27/657353716/74507/73706349/5a9d01baN5ba9dfa2.png!q80.webp",
+    "bigCon":["手洗洗衣液", "洗衣粉", "洗衣皂", "洗手液", "衣物护理液"],
+    "list":[{
+        "alt": "雕牌 加香透明皂/洗衣皂206g*2块 肥皂（新老包装随机发货）",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t19294/184/266930215/251303/884d3a0/5a6830a5Nfdd2fd4e.jpg!q80.webp",
+        "price": "¥5.90"
+    },{
+        "alt": "拓朴大卫免手洗平板拖把自拓扑懒人木地板拖布清洁工具墩布干湿两用 Z9",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t19237/228/1942756022/119065/d62f7d99/5adfdf23N8b193c63.jpg!q80.webp",
+        "price": "¥139.00"
+    },{
+        "alt": "金鸡 膏体鞋油 黑色 30g 皮鞋护理 真皮保养【新老包装随机发货】",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t1/5394/22/11311/67579/5bced505Ebd932735/820216abbdf9c857.jpg!q80.webp",
+        "price": "¥2.50"
+    },{
+        "alt": "立白 内衣专用除菌皂家庭特惠装（101g*4块）",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t20308/302/1002582985/254608/a607c257/5b1e33edN6ca4fd4a.jpg!q80.webp",
+        "price": "¥9.90"
+    },{
+        "alt": "快乐猫（KLM）刮刮桶免手洗平板拖把桶旋转自动甩干 刮刮乐  家用瓷砖地懒人好神墩布 A111",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t1/24171/7/6414/265834/5c511b08Eb484b986/224c180e89d8c56e.jpg!q80.webp",
+        "price": "¥139.80"
+    },{
+        "alt": "奥妙 洗衣液 16斤超值除菌除螨套装(3kg×2+1kg×2) 源自天然酵素(新老包装随机发货)",
+        "imgsrc": "https://img10.360buyimg.com/jdcms/s130x130_jfs/t21418/102/2502227652/271738/2432e6e4/5b5940b0N5c6401bd.jpg!q80.webp",
+        "price": "¥102.90"
+    },{
+        "alt": "尚岛宜家 木棉签 棉棒200头装 美容化妆 耳鼻清洁 100只",
+        "imgsrc": "https://img11.360buyimg.com/jdcms/s130x130_jfs/t17608/22/879661357/352051/47d9bf76/5aac6009N939b9c95.jpg!q80.webp",
+        "price": "¥2.50"
+    },{
+        "alt": "拓朴大卫双驱动旋转拖把桶 免手洗拓扑拖布地拖墩布好神拖 D9（新老包装随机发货）",
+        "imgsrc": "https://img12.360buyimg.com/jdcms/s130x130_jfs/t3820/45/3226368484/233910/b6bd4105/587dce93N4673dfab.jpg!q80.webp",
+        "price": "¥139.90"
+    },{
+        "alt": "碧浪 日本进口 3合1洗衣凝珠（日晒般清新）5颗/袋 强效抑菌 洗衣球 非洗衣液",
+        "imgsrc": "https://img13.360buyimg.com/jdcms/s130x130_jfs/t20032/342/1877023849/177053/a3d3d65e/5b29182eNc0f62c32.jpg!q80.webp",
+        "price": "¥9.90"
+    },{
+        "alt": "蓝月亮 喷雾头衣领净 衣领洗衣液 衣领清洁剂优惠套装（500g瓶+500g瓶装补充液）",
+        "imgsrc": "https://img14.360buyimg.com/jdcms/s130x130_jfs/t5500/244/2289313230/92902/3246f0f/591ad147N965741e4.jpg!q80.webp",
+        "price": "¥28.30"
+    }]
+}]

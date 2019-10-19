@@ -1,0 +1,57 @@
+@charset "utf-8";
+html,body{
+    height: 100%;
+}
+a,body,
+h1,h2,h3,h4,h5,h6,
+div,p,ul,ol,li,dl,dt,dd,
+table,thead,tbody,tfood,caption,
+tr,th,td,
+form,input,
+img,button,
+figure,figcaption,
+footer,header,section,main,article,aside,nav{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,
+b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: 0;
+}
+.clear_fix::after{
+    content: " ";
+    height: 0;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+/* @media screen and (max-width:320px){
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:375px){
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:376px) and (max-width:1080px){
+    html{
+        font-size: 16px;
+    }
+} */
